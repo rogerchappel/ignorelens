@@ -9,7 +9,10 @@ format and uses semantic versioning when versioned releases are published.
 
 ### Added
 
-- Initial project setup.
+- Functional TypeScript CLI for scanning Git, npm, and Docker packaging boundaries.
+- Markdown and JSON reports with evidence-backed findings.
+- Fixture-backed test suite, smoke script, and validation workflow.
+- Documentation for quick start, config, examples, safety defaults, and limitations.
 
 ## Release Links
 
