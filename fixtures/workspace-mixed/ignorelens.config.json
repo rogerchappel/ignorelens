@@ -1,0 +1,5 @@
+{
+  "allowedGeneratedDirs": ["build"],
+  "requiredFiles": ["README.md", "LICENSE"],
+  "allowTestsInPackage": false
+}
