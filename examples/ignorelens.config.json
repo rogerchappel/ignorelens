@@ -1,0 +1,8 @@
+{
+  "ecosystems": ["git", "npm", "docker"],
+  "requiredFiles": ["README.md", "LICENSE"],
+  "allowedGeneratedDirs": ["dist", "build"],
+  "ignoredFindings": [],
+  "allowTestsInPackage": false,
+  "maxFileSizeBytes": 2000000
+}
