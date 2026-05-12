@@ -7,7 +7,7 @@ import { loadConfig } from '../config/load.js';
 import { applyRules } from '../rules/index.js';
 
 export interface ScanOptions {
-  configPath?: string;
+  configPath?: string | undefined;
 }
 
 export async function scan(rootInput: string, options: ScanOptions = {}): Promise<ScanResult> {

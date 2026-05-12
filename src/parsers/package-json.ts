@@ -1,7 +1,7 @@
 export interface PackageJsonBoundary {
-  name?: string;
-  files?: string[];
-  main?: string;
+  name?: string | undefined;
+  files?: string[] | undefined;
+  main?: string | undefined;
   exports?: unknown;
   bin?: unknown;
 }

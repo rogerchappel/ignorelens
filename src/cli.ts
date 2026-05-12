@@ -7,12 +7,12 @@ import type { Severity } from './core/types.js';
 import { renderReport, type ReportFormat } from './reporters/index.js';
 
 interface ParsedArgs {
-  command?: string;
-  target?: string;
+  command?: string | undefined;
+  target?: string | undefined;
   format: ReportFormat;
-  out?: string;
-  failOn?: Severity;
-  config?: string;
+  out?: string | undefined;
+  failOn?: Severity | undefined;
+  config?: string | undefined;
 }
 
 async function main(argv: string[]): Promise<number> {
