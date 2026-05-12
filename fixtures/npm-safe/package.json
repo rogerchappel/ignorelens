@@ -1,0 +1,6 @@
+{
+  "name": "npm-safe-fixture",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": ["dist", "README.md", "LICENSE"]
+}
