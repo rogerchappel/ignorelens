@@ -17,8 +17,12 @@ interface ParsedArgs {
 
 async function main(argv: string[]): Promise<number> {
   const args = parseArgs(argv);
-  if (!args.command || args.command === 'help' || args.command === '--help') {
+  if (!args.command || args.command === 'help' || args.command === '--help' || args.command === '-h') {
     process.stdout.write(help());
+    return 0;
+  }
+  if (args.command === 'version' || args.command === '--version' || args.command === '-v') {
+    process.stdout.write('0.1.0\n');
     return 0;
   }
   if (args.command === 'scan') {
