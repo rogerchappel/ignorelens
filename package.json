@@ -11,7 +11,8 @@
     "dist/src",
     "README.md",
     "LICENSE",
-    "SECURITY.md"
+    "SECURITY.md",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "check": "tsc --noEmit",
@@ -42,7 +43,7 @@
     "picocolors": "^1.1.1"
   },
   "bin": {
-    "ignorelens": "dist/src/cli.js"
+    "ignorelens": "./dist/src/cli.js"
   },
   "repository": {
     "type": "git",
